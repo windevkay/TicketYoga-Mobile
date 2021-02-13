@@ -3,24 +3,23 @@ import { StyleSheet } from "react-native";
 export const appHeaderStyles = StyleSheet.create({
   header: {
     width: "100%",
-    height: 150,
-    justifyContent: "center",
-    padding: 15,
+    height: 200,
+    backgroundColor: "#343d52",
+    justifyContent: "flex-start",
+    paddingVertical: 35,
   },
   headerItems: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-  },
-  headerButtons: {
-    flexDirection: "row",
+    padding: 20,
   },
   logo: {
     width: 50,
     height: 50,
   },
   ctaButton: {
-    width: 90,
+    width: 150,
     height: 30,
     backgroundColor: "limegreen",
     borderColor: "limegreen",

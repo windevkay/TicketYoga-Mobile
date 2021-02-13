@@ -18,15 +18,14 @@ export const AppHeader = ({ openCreateEventModal }: Props) => {
           source={require("./assets/tylogo.png")}
           style={appHeaderStyles.logo}
         />
-        <View style={appHeaderStyles.headerButtons}>
-          <Button
-            type="primary"
-            style={appHeaderStyles.ctaButton}
-            onPress={createEventButtonHandler}
-          >
-            Create Event
-          </Button>
-        </View>
+
+        <Button
+          type="primary"
+          style={appHeaderStyles.ctaButton}
+          onPress={createEventButtonHandler}
+        >
+          Create Event
+        </Button>
       </View>
     </View>
   );
