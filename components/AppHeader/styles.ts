@@ -3,16 +3,19 @@ import { StyleSheet } from "react-native";
 export const appHeaderStyles = StyleSheet.create({
   header: {
     width: "100%",
-    height: 200,
-    backgroundColor: "#343d52",
+    height: 120,
+    //backgroundColor: "#343d52",
     justifyContent: "flex-start",
-    paddingVertical: 35,
+    paddingVertical: 30,
   },
   headerItems: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     padding: 20,
+  },
+  headerButtons: {
+    flexDirection: "row",
   },
   logo: {
     width: 50,
@@ -24,5 +27,9 @@ export const appHeaderStyles = StyleSheet.create({
     backgroundColor: "limegreen",
     borderColor: "limegreen",
     borderRadius: 50,
+  },
+  searchButton: {
+    color: "#343d52",
+    paddingHorizontal: 10,
   },
 });
